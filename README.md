@@ -19,5 +19,6 @@
 Для запуска сервиса:
 
  - Установить библиотеку [invoke](https://www.pyinvoke.org/installing.html)
+ - установить docker
  - Выполнить команду `inv docker.build -n` Она соберет docker образ сервиса.
  - Для запуска выполнить команду `docker run -d -p 8080:8080 academy_qa_demo_service`
